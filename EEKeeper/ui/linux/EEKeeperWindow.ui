@@ -75,7 +75,7 @@
      <x>0</x>
      <y>0</y>
      <width>798</width>
-     <height>22</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -209,9 +209,9 @@
    </attribute>
    <widget class="ItemBrowserWidget" name="dockWidgetItemBrowserContents"/>
   </widget>
-<action name="actionOpen_Saved_Game">
+  <action name="actionOpen_Saved_Game">
    <property name="icon">
-    <iconset resource="../../eekeeper.qrc">
+    <iconset resource="../../../eekeeper.qrc">
      <normaloff>:/icons/res/document-open.svg</normaloff>:/icons/res/document-open.svg</iconset>
    </property>
    <property name="text">
@@ -305,7 +305,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset resource="../../eekeeper.qrc">
+    <iconset resource="../../../eekeeper.qrc">
      <normaloff>:/icons/res/media-floppy.svg</normaloff>:/icons/res/media-floppy.svg</iconset>
    </property>
    <property name="text">
@@ -317,7 +317,7 @@
   </action>
   <action name="actionAbout">
    <property name="icon">
-    <iconset resource="../../eekeeper.qrc">
+    <iconset resource="../../../eekeeper.qrc">
      <normaloff>:/icons/res/help-browser.svg</normaloff>:/icons/res/help-browser.svg</iconset>
    </property>
    <property name="text">
@@ -329,7 +329,7 @@
   </action>
   <action name="actionView_Readme">
    <property name="icon">
-    <iconset resource="../../eekeeper.qrc">
+    <iconset resource="../../../eekeeper.qrc">
      <normaloff>:/icons/res/accessories-text-editor.svg</normaloff>:/icons/res/accessories-text-editor.svg</iconset>
    </property>
    <property name="text">
@@ -341,7 +341,7 @@
   </action>
   <action name="actionVisit_the_Website">
    <property name="icon">
-    <iconset resource="../../eekeeper.qrc">
+    <iconset resource="../../../eekeeper.qrc">
      <normaloff>:/icons/res/internet-web-browser.svg</normaloff>:/icons/res/internet-web-browser.svg</iconset>
    </property>
    <property name="text">
@@ -418,9 +418,14 @@
    <header>SpellBrowserWidget.h</header>
    <container>1</container>
   </customwidget>
+  <customwidget>
+   <class>ItemBrowserWidget</class>
+   <extends>QWidget</extends>
+   <header>ItemBrowserWidget.h</header>
+  </customwidget>
  </customwidgets>
  <resources>
-  <include location="../../eekeeper.qrc"/>
+  <include location="../../../eekeeper.qrc"/>
  </resources>
  <connections/>
 </ui>
