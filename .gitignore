@@ -75,3 +75,7 @@ Thumbs.db
 *.dll
 *.exe
 
+# Flatpak builder files
+.flatpak-builder
+app
+

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=EEKeeper
+Exec=start-eekeeper
+Type=Application
+Icon=org.troodon80.eekeeperqt
+Categories=Utility;
